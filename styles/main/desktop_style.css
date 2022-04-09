@@ -1,0 +1,161 @@
+
+.main-container {
+display: flex;
+justify-content: flex-start;
+max-width: 960px;
+margin-left: 300px;
+margin-top: 40px;
+}
+
+
+
+.left-side-pics {
+display: flex;
+flex-direction: column;
+margin-bottom: 300px;
+margin-right: 5px;
+}
+
+
+.left-side-pics img{
+  width: 40px;
+  height: auto;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.left-side-pics img:hover {
+  border: 1px solid rgb(254, 189, 105) ;
+}
+
+
+
+.main-img img {
+  width: 550px;
+  margin-right: 10px;
+  
+}
+
+
+.main-prices-content {
+  
+  max-width: 400px;
+  width: 500px;
+  margin-left: 30px;
+  font-size: 14px;
+  height: 100%;
+  
+}
+
+.price-paragraph {
+line-height: 1.2em;
+}
+.main-prices-content h2 {
+  font-weight: 400;
+}
+
+.border {
+  border: 1px dotted lightgray;
+  width: 400px;
+}
+
+.border-eof {
+  border: 1px dotted lightgray;
+  width: 1100px;
+  margin: 3px 250px;
+
+}
+
+.price {
+  color: rgb(192 80 51);
+  font-size: 17px;
+}
+
+.report-link  {
+  text-decoration: none;
+}
+
+.best-seller-logo {
+  width: 115px;
+}
+
+.best-seller-content {
+  float: right;
+  margin-top: 15px;
+  margin-right: 120px;
+  color: rgb(32, 164, 176);
+  
+}
+
+.rating {
+  
+  width: 100px;
+  max-height: 50px;
+}
+
+.ratings-content {
+  float: right;
+  margin-top: 15px;
+  margin-right: 30px;
+  font-size: 14px;
+  color: rgb(32, 164, 176);
+  
+}
+
+.main-prices {
+  display: flex;
+}
+
+.shipping-details {
+  min-width: 220px;
+  border: 1px dotted grey;
+  border-radius: 10px;
+  padding: 15px 15px;
+  height: 75vh;
+  font-size: small;
+  margin-left: 25px;
+}
+
+.location {
+  font-size: 11.5px;
+}
+
+.location a {
+  text-decoration: none;
+}
+
+.quantity-btn {
+  
+}
+
+.quantity-btn button {
+  border-radius:15px ;
+  padding: 2px;
+  width: 70px;
+  cursor: pointer;
+}
+
+.quantity-btn button:hover {
+  background-color: rgb(240, 242, 242);
+}
+
+.add-to-cart-btn button {
+  border-radius:15px ;
+  padding: 6px;
+  width: 200px;
+  cursor: pointer;
+  background-color: rgb(255, 216, 20);
+  margin: 8px 0px;
+}
+
+.buy-now-btn button {
+  border-radius:15px ;
+  padding: 6px;
+  width: 200px;
+  background-color: rgb(255, 164, 28);
+  cursor: pointer;
+}
+
+.stock {
+  font-size: 17px;
+}
